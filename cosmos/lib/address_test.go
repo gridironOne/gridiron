@@ -33,7 +33,7 @@ import (
 var _ = Describe("Address", func() {
 	It("should return the correct address", func() {
 		addr := common.HexToAddress("0xCd8c4Cb0C7f93a2B74B3e522a1C7BE35bE1Fbc73")
-		bech32 := "cosmos1ekxyevx8lyazka9nu532r3a7xklpl0rnjrc2a9"
+		bech32 := "did:fury:cosmos1ekxyevx8lyazka9nu532r3a7xklpl0rnjrc2a9"
 		acc, err := sdk.AccAddressFromBech32(bech32)
 		Expect(err).NotTo(HaveOccurred())
 		addr2 := cosmlib.AccAddressToEthAddress(acc)

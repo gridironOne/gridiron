@@ -1,15 +1,15 @@
 import type { ChainInfo, BIP44 } from '@keplr-wallet/types';
-import { Bech32Address } from '@keplr-wallet/cosmos';
+import { Bech32Address } from '@keplr-wallet/did:fury:';
 
 const coinType60 = 60
 
-const gazerBip44: BIP44 = {
+const furyBip44: BIP44 = {
   coinType: coinType60,
 };
 
-const GAZER = {
-  coinDenom: 'gazer',
-  coinMinimalDenom: 'agazer',
+const FURY = {
+  coinDenom: 'fury',
+  coinMinimalDenom: 'afury',
   coinDecimals: 18,
 };
 
@@ -17,14 +17,14 @@ const LOCAL_CHAIN_INFO: ChainInfo = {
   coinType: coinType60,
   rpc: 'http://localhost:26657',
   rest: 'http://localhost:1317',
-  chainId: 'gridiron-2061',
+  chainId: 'clockend-4200',
   chainName: 'gridiron',
-  stakeCurrency: GAZER,
-  bip44: gazerBip44,
-  bech32Config: Bech32Address.defaultBech32Config('gridiron'),
-  currencies: [GAZER],
+  stakeCurrency: FURY,
+  bip44: furyBip44,
+  bech32Config: Bech32Address.defaultBech32Config('did:fury:'),
+  currencies: [FURY],
   feeCurrencies: [{
-    ...GAZER,
+    ...FURY,
     gasPriceStep: {
       low: 10000000000,
       average: 25000000000,

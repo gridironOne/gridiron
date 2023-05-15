@@ -109,12 +109,12 @@ func DefaultConfig(keysMap map[string]*ethsecp256k1.PrivKey) network.Config {
 				val.GetCtx().Logger, cdb.NewMemDB(), nil, true, sims.EmptyAppOptions{},
 				baseapp.SetPruning(pruningtypes.NewPruningOptionsFromString(val.GetAppConfig().Pruning)),
 				baseapp.SetMinGasPrices(val.GetAppConfig().MinGasPrices),
-				baseapp.SetChainID("gridiron-2061"),
+				baseapp.SetChainID("clockend-4200"),
 			)
 		},
 		GenesisState:    BuildGenesisState(keysMap),
 		TimeoutCommit:   2 * time.Second, //nolint:gomnd // 2 seconds is the default.
-		ChainID:         "gridiron-2061",
+		ChainID:         "clockend-4200",
 		NumValidators:   1,
 		BondDenom:       "afury",
 		MinGasPrices:    fmt.Sprintf("0.00006%s", "afury"),

@@ -23,7 +23,7 @@
 KEYS[0]="dev0"
 KEYS[1]="dev1"
 KEYS[2]="dev2"
-CHAINID="gridiron-2061"
+CHAINID="clockend-4200"
 MONIKER="localtestnet"
 # Remember to change to other types of keyring like 'file' in-case exposing to outside world,
 # otherwise your balance will be wiped quickly
@@ -97,7 +97,7 @@ if [[ $overwrite == "y" || $overwrite == "Y" ]]; then
 	# Test Account
 	# absurd surge gather author blanket acquire proof struggle runway attract cereal quiz tattoo shed almost sudden survey boring film memory picnic favorite verb tank
 	# 0xfffdbb37105441e14b0ee6330d855d8504ff39e705c3afa8f859ac9865f99306
-	./bin/grid genesis add-genesis-account grid1yrene6g2zwjttemf0c65fscg8w8c55w5vhc9hd 69000000000000000000000000afury --keyring-backend $KEYRING --home "$HOMEDIR"
+	./bin/grid genesis add-genesis-account did:fury:grid1yrene6g2zwjttemf0c65fscg8w8c55w5vhc9hd 69000000000000000000000000afury --keyring-backend $KEYRING --home "$HOMEDIR"
 
 	# Sign genesis transaction
 	./bin/grid genesis gentx ${KEYS[0]} 1000000000000000000000afury --keyring-backend $KEYRING --chain-id $CHAINID --home "$HOMEDIR"

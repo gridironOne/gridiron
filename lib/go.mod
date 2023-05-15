@@ -1,4 +1,4 @@
-module github.com/gridironOne/gridiron/lib
+module github.com/gridironOne/lib
 
 go 1.20
 

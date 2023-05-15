@@ -1,4 +1,4 @@
-module github.com/gridironOne/gridiron/eth
+module github.com/gridironOne/eth
 
 go 1.20
 

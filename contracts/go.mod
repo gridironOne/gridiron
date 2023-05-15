@@ -1,4 +1,4 @@
-module github.com/gridironOne/gridiron/contracts
+module github.com/gridironOne/contracts
 
 go 1.20
 

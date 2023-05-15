@@ -3,12 +3,12 @@ module github.com/gridironOne/gridiron/playground
 go 1.20
 
 // Required for stateful precompiles and supporting the Ethereum JSON-RPC API.
-replace github.com/ethereum/go-ethereum => github.com/gridironOne/gridiron-geth v0.0.0-20230508205427-d337874a7c1b
+replace github.com/ethereum/go-ethereum => github.com/gridironOne/gridiron-geth v0.0.0-geth
 
 require (
 	github.com/rs/zerolog v1.29.1
 	github.com/spf13/cobra v1.7.0
-	github.com/gridironOne/gridiron/eth v0.0.0-20230420211110-7941498932df
+	github.com/gridironOne/gridiron/eth v0.0.0-eth
 )
 
 require (
@@ -62,5 +62,5 @@ require (
 	golang.org/x/text v0.9.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
-	github.com/gridironOne/gridiron/lib v0.0.0-20230313214926-47d6f56b8f0d // indirect
+	github.com/gridironOne/gridiron/lib v0.0.0-lib // indirect
 )

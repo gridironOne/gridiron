@@ -8,7 +8,7 @@ replace (
 	github.com/cosmos/cosmos-sdk => github.com/cosmos/cosmos-sdk v0.46.0-beta2.0.20230423204932-f0018246f107
 
 	// Required for stateful precompiles and supporting the Ethereum JSON-RPC API.
-	github.com/ethereum/go-ethereum => github.com/gridironOne/gridiron-geth v0.0.0-20230508205427-d337874a7c1b
+	github.com/ethereum/go-ethereum => github.com/gridironOne/gridiron-geth v0.0.0-geth
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 )
 
@@ -49,9 +49,9 @@ require (
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
 	google.golang.org/grpc v1.54.0
 	google.golang.org/protobuf v1.30.0
-	github.com/gridironOne/gridiron/contracts v0.0.0-20230512040135-5e51785e361a
-	github.com/gridironOne/gridiron/eth v0.0.0-20230512040135-5e51785e361a
-	github.com/gridironOne/gridiron/lib v0.0.0-20230512040135-5e51785e361a
+	github.com/gridironOne/gridiron/contracts v0.0.0-con
+	github.com/gridironOne/gridiron/eth v0.0.0-eth
+	github.com/gridironOne/gridiron/lib v0.0.0-lib
 )
 
 require (

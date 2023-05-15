@@ -11,8 +11,8 @@ require (
 	github.com/onsi/ginkgo/v2 v2.9.2
 	github.com/onsi/gomega v1.27.4
 	golang.org/x/text v0.9.0
-	github.com/gridironOne/gridiron/contracts v0.0.0-con
-	github.com/gridironOne/gridiron/lib v0.0.0-lib
+	github.com/gridironOne/contracts v0.0.0-contracts
+	github.com/gridironOne/lib v0.0.0-lib
 )
 
 require (

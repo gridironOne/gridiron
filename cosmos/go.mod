@@ -49,9 +49,9 @@ require (
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
 	google.golang.org/grpc v1.54.0
 	google.golang.org/protobuf v1.30.0
-	github.com/gridironOne/gridiron/contracts v0.0.0-contracts
-	github.com/gridironOne/gridiron/eth v0.0.0-eth
-	github.com/gridironOne/gridiron/lib v0.0.0-lib
+	github.com/gridironOne/contracts v0.0.0-contracts
+	github.com/gridironOne/eth v0.0.0-eth
+	github.com/gridironOne/lib v0.0.0-lib
 )
 
 require (

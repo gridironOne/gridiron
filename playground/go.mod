@@ -8,7 +8,7 @@ replace github.com/ethereum/go-ethereum => github.com/gridironOne/gridiron-geth 
 require (
 	github.com/rs/zerolog v1.29.1
 	github.com/spf13/cobra v1.7.0
-	github.com/gridironOne/gridiron/eth v0.0.0-eth
+	github.com/gridironOne/eth v0.0.0-eth
 )
 
 require (
@@ -62,5 +62,5 @@ require (
 	golang.org/x/text v0.9.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
-	github.com/gridironOne/gridiron/lib v0.0.0-lib // indirect
+	github.com/gridironOne/lib v0.0.0-lib // indirect
 )
